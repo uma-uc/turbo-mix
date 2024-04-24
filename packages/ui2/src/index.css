@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clip-arrow {
+    clip-path: polygon(80% 10%, 0% 10%, 40% 60%);
+  }
+}
+
+hr {
+  @apply mx-4 my-8 border-b border-t-0 border-dashed border-b-slate-500;
+}
+
+.section-title {
+  @apply mt-4 text-xl font-medium;
+}
+
+.prose-p {
+  @apply mt-2 text-sm font-light text-slate-400;
+}
+
+.label {
+  @apply inline-block w-32 pe-4 text-end sm:w-auto sm:text-start;
+}
+
+.input {
+  @apply rounded-sm bg-slate-100 px-2 py-1 text-slate-900;
+}
+.input-number {
+  @apply w-28;
+}
+
+.output-island {
+  @apply mx-8 mt-3 rounded-md bg-cyan-200/10 p-3 px-5 font-light text-cyan-400;
+}
+
+.locale-switcher {
+  @apply after:clip-arrow relative flex items-center rounded-md bg-slate-800 py-1 pe-2 ps-2 text-cyan-200 after:absolute after:end-2 after:top-[10px] after:block after:h-3 after:w-3 after:bg-cyan-200 after:content-[''];
+}
+.locale-switcher select {
+  @apply cursor-pointer appearance-none bg-transparent pe-6 text-sm font-light uppercase;
+}

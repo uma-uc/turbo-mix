@@ -1,0 +1,41 @@
+{
+  "name": "fihi-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && bunx next build",
+    "preview": "vite preview",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@shared/i18n": "workspace: *",
+    "@shared/ui": "workspace: *",
+    "@shared/ui2": "workspace: *",
+    "@tauri-apps/api": ">=2.0.0-beta.0",
+    "@tauri-apps/plugin-shell": ">=2.0.0-beta.0",
+    "next": "^14.2.2",
+    "next-i18next": "^15.3.0",
+    "next-themes": "^0.3.0",
+    "nextjs": "^0.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@shared/eslint-config": "0.1.0",
+    "@shared/tailwind-config": "0.1.0",
+    "@shared/ts-config": "0.1.0",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.12",
+    "@tauri-apps/cli": ">=2.0.0-beta.0",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "@vitejs/plugin-react": "^4.2.1",
+    "internal-ip": "^7.0.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "5.4.3",
+    "vite": "^5.2.7"
+  }
+}
