@@ -1,5 +1,5 @@
 {
-  "name": "@shared/form",
+  "name": "@incmix/form",
   "module": "./src/index.ts",
   "type": "module",
   "devDependencies": {

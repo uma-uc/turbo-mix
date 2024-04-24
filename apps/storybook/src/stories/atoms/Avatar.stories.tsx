@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { Avatar, AvatarImage, AvatarStyle } from "@shared/ui"
+import { Avatar, AvatarImage, AvatarStyle } from "@incmix/ui"
 
 type AvatarSizes = keyof typeof AvatarStyle.sizes
 const sizes = Object.keys(AvatarStyle.sizes) as AvatarSizes[]

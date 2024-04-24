@@ -9,7 +9,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 export const ThemeToggle = () => {
   const { setTheme } = useTheme()

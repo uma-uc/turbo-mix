@@ -1,4 +1,4 @@
-# @shared/form
+# @incmix/form
 
 To install dependencies:
 

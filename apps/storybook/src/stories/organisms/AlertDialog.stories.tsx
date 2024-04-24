@@ -11,7 +11,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
   Button,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 const meta = {
   title: "Organisms/AlertDialog",

@@ -1,4 +1,4 @@
-# @shared/dates
+# @incmix/dates
 
 To install dependencies:
 

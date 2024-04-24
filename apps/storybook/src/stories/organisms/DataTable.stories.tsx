@@ -26,7 +26,7 @@ import {
   TableHeader,
   TableRow,
   type DataTable,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 import { paymentsData, type Payment } from "../../data/payments"
 

@@ -10,7 +10,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 const meta = {
   title: "Organisms/Form",

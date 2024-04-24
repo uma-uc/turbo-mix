@@ -9,7 +9,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 import { invoices } from "../../data/invoices"
 

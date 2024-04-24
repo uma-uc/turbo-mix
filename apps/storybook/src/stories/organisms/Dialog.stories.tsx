@@ -10,7 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 const meta = {
   title: "Organisms/Dialog",

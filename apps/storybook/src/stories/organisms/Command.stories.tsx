@@ -8,7 +8,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@shared/ui"
+} from "@incmix/ui"
 
 const meta = {
   title: "Organisms/Command",

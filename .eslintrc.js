@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["@shared/eslint-config"],
+  extends: ["@incmix/eslint-config"],
   settings: {
     next: {
       rootDir: ["apps/web"],

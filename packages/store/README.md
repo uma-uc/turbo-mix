@@ -1,4 +1,4 @@
-# @shared/store
+# @incmix/store
 
 To install dependencies:
 

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { Badge, BadgeStyle } from "@shared/ui"
+import { Badge, BadgeStyle } from "@incmix/ui"
 
 type BadgeVariants = keyof typeof BadgeStyle.variants
 const variants = Object.keys(BadgeStyle.variants) as BadgeVariants[]

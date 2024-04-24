@@ -1,11 +1,11 @@
 'use client';
 import { Inter } from "next/font/google";
-import "@shared/ui/styles/global.css"
-import {Button} from "@shared/ui";
+import "@incmix/ui/styles/global.css"
+import {Button} from "@incmix/ui";
 import { useTheme } from "next-themes";
 import { useTranslation } from "next-i18next";
-import { PageHeader, useLocalizeDocumentAttributes, Dates, config, Plurals, Interpolation, Numbers } from "@shared/ui2";
-import type { SupportedLanguages  } from "@shared/ui2";
+import { PageHeader, useLocalizeDocumentAttributes, Dates, config, Plurals, Interpolation, Numbers } from "@incmix/i18n";
+import type { SupportedLanguages  } from "@incmix/i18n";
 ; // Add this line to import the missing 'pageHeader' function
 
 export const supportedLangs: SupportedLanguages = {

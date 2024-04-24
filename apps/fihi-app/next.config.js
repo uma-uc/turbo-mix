@@ -8,7 +8,7 @@ const nextConfig = {
   //i18n,
   reactStrictMode: true,
   swcMinify: true,
-  transpilePackages: ["@incmix/tailwind-config", "@incmix/ui", "@incmix/i18n", "@incmix/i18n"],
+  transpilePackages: ["@incmix/tailwind-config", "@incmix/ui", "@incmix/i18n"],
   images: {
     remotePatterns: [
       

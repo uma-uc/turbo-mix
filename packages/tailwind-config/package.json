@@ -1,5 +1,5 @@
 {
-  "name": "@shared/tailwind-config",
+  "name": "@incmix/tailwind-config",
   "version": "0.1.0",
   "main": "index.ts",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@shared/ts-config": "0.1.0",
+    "@incmix/ts-config": "0.1.0",
     "typescript": "5.4.3"
   }
 }

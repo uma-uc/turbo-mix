@@ -4,11 +4,11 @@ import localFont from "next/font/local"
 
 import { type LayoutProps } from "@/types/common"
 import { baseMetadata, baseViewport } from "@/constants/metadata"
-import { cn, Toaster } from "@shared/ui"
+import { cn, Toaster } from "@incmix/ui"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
-import "@shared/ui/styles/global.css"
+import "@incmix/ui/styles/global.css"
 
 // Define the font styles
 const fontSans = Inter({

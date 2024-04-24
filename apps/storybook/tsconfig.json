@@ -1,5 +1,5 @@
 {
-  "extends": "@shared/ts-config/nextjs.json",
+  "extends": "@incmix/ts-config/nextjs.json",
   "compilerOptions": {
     "strictNullChecks": true,
     "declaration": false,

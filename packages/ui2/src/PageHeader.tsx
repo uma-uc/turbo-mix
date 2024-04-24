@@ -1,7 +1,7 @@
 import { Trans } from "react-i18next";
 import i18nextLogo from "./assets/i18next-logo.png";
 import reactLogo from "./assets/react.svg";
-import "@shared/ui/styles/global.css";
+import "@incmix/ui/styles/global.css";
 import "./index.css"
 import LocaleSwitcher from "./LocaleSwitcher";
 import type {LocalSwitcherProps} from "./LocaleSwitcher";  

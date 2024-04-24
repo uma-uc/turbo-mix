@@ -4,7 +4,7 @@ const { withContentlayer } = require("next-contentlayer")
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  transpilePackages: ["@shared/tailwind-config", "@shared/ui"],
+  transpilePackages: ["@incmix/tailwind-config", "@incmix/ui"],
   images: {
     remotePatterns: [
       {

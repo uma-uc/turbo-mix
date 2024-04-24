@@ -10,30 +10,30 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "dev:turbo": "turbo run dev:turbo --parallel",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "postinstall": "manypkg check",
     "lint": "turbo run lint",
     "lint:fix": "turbo lint -- --fix && manypkg fix",
     "manypkg:fix": "manypkg fix",
-    "postinstall": "manypkg check",
-    "typecheck": "turbo typecheck",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky"
-  },
-  "packageManager": "bun@1.0.25",
-  "engines": {
-    "node": ">=18.16.0"
+    "prepare": "husky",
+    "typecheck": "turbo typecheck"
   },
   "dependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "@incmix/eslint-config": "0.1.0",
     "@manypkg/cli": "^0.21.3",
-    "@shared/eslint-config": "0.1.0",
     "@turbo/gen": "^1.13.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "syncpack": "^12.3.1",
     "turbo": "^1.13.0"
+  },
+  "packageManager": "bun@1.0.25",
+  "engines": {
+    "node": ">=18.16.0"
   },
   "manypkg": {
     "ignoredRules": [

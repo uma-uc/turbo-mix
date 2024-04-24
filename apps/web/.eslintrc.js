@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    "@shared/eslint-config",
+    "@incmix/eslint-config",
     "next/core-web-vitals",
     "plugin:tailwindcss/recommended",
   ],

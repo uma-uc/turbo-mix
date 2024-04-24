@@ -5,7 +5,7 @@ import {
   type PageMetadata,
   type StaticArrayParams,
 } from "@/types/common"
-import { Heading } from "@shared/ui"
+import { Heading } from "@incmix/ui"
 import { Mdx } from "@/features/public/common/ui/mdx-components"
 import { getDocMetadata } from "@/features/public/docs/metadata/metadata"
 import { Pager } from "@/features/public/docs/ui/pager"

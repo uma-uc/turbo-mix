@@ -1,7 +1,7 @@
 import { RocketIcon } from "@radix-ui/react-icons"
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { Alert, AlertDescription, AlertStyle, AlertTitle } from "@shared/ui"
+import { Alert, AlertDescription, AlertStyle, AlertTitle } from "@incmix/ui"
 
 type AlertVariants = keyof typeof AlertStyle.variants
 
