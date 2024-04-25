@@ -40,5 +40,8 @@
     "ignoredRules": [
       "INTERNAL_MISMATCH"
     ]
+  },
+  "devDependencies": {
+    "execa": "^8.0.1"
   }
 }
