@@ -14,7 +14,8 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2021"
+    "target": "ES2021",
+    "jsx": "preserve"
   },
   "exclude": ["node_modules"]
 }

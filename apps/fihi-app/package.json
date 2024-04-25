@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@incmix/eslint-config": "0.1.0",
+    "@incmix/eslint-config": "workspace: *",
     "@incmix/tailwind-config": "0.1.0",
     "@incmix/ts-config": "0.1.0",
     "@tailwindcss/line-clamp": "^0.4.4",

@@ -7,7 +7,7 @@ const config = {
     "./components/**/*.{ts,tsx}",
     "./features/**/*.{ts,tsx}",
     "./content/**/*.{md,mdx}",
-    "../../packages/ui/components/**/*.{ts,tsx}",
+    "../../client/core/ui/components/**/*.{ts,tsx}",
   ],
   presets: [shadcnPreset],
 } satisfies Config

@@ -1,10 +1,11 @@
 {
-  "name": "turborepo-nextjs",
+  "name": "incmix",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "frontend/config/*",
+    "frontend/core/*"
   ],
   "scripts": {
     "build": "turbo run build",
@@ -22,7 +23,7 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
-    "@incmix/eslint-config": "0.1.0",
+    "@incmix/eslint-config": "workspace:*",
     "@manypkg/cli": "^0.21.3",
     "@turbo/gen": "^1.13.0",
     "husky": "^9.0.11",

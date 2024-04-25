@@ -10,16 +10,16 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@incmix/ui": "0.1.0",
+    "@incmix/ui": "workspace: *",
     "@radix-ui/react-icons": "^1.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.2"
   },
   "devDependencies": {
-    "@incmix/eslint-config": "0.1.0",
-    "@incmix/tailwind-config": "0.1.0",
-    "@incmix/ts-config": "0.1.0",
+    "@incmix/eslint-config": "workspace: *",
+    "@incmix/tailwind-config": "workspace: *",
+    "@incmix/ts-config": "workspace: *",
     "@storybook/addon-essentials": "^8.0.5",
     "@storybook/addon-interactions": "^8.0.5",
     "@storybook/addon-links": "^8.0.5",

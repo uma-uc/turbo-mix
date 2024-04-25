@@ -1,5 +1,5 @@
 {
-  "name": "@incmix/dates",
+  "name": "@incmix/date",
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
@@ -10,6 +10,7 @@
     "typescript": "5.4.3"
   },
   "dependencies": {
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.10",
+    "rrule": "^2.8.1"
   }
 }
