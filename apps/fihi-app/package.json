@@ -11,8 +11,7 @@
     "tauri:build": "tauri build"
   },
   "dependencies": {
-    "@incmix/ui": "0.1.0",
-    "@radix-ui/themes": "^3.0.2",
+    "@incmix/ui": "workspace: *",
     "@tauri-apps/api": ">=2.0.0-beta.0",
     "@tauri-apps/plugin-shell": ">=2.0.0-beta.0",
     "next": "^14.2.2",
@@ -23,11 +22,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@incmix/eslint-config": "0.1.0",
-    "@incmix/tailwind-config": "0.1.0",
-    "@incmix/ts-config": "0.1.0",
-    "@tailwindcss/line-clamp": "^0.4.4",
-    "@tailwindcss/typography": "^0.5.12",
+    "@incmix/eslint-config": "workspace: *",
+    "@incmix/ts-config": "workspace: *",
     "@tauri-apps/cli": ">=2.0.0-beta.0",
     "@types/react": "^18.2.73",
     "@types/react-dom": "^18.2.23",

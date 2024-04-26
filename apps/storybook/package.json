@@ -17,9 +17,8 @@
     "react-hook-form": "^7.51.2"
   },
   "devDependencies": {
-    "@incmix/eslint-config": "0.1.0",
-    "@incmix/tailwind-config": "0.1.0",
-    "@incmix/ts-config": "0.1.0",
+    "@incmix/eslint-config": "workspace: *",
+    "@incmix/ts-config": "workspace: *",
     "@storybook/addon-essentials": "^8.0.5",
     "@storybook/addon-interactions": "^8.0.5",
     "@storybook/addon-links": "^8.0.5",
