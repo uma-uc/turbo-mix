@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "@incmixs/utils",
   "module": "./src/index.ts",
   "type": "module",
   "devDependencies": {

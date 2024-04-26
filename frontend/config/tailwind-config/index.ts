@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss"
-import radixThemePlugin from "radix-ui-themes-with-tailwind";
+import tailwindClampConfig from '@tailwindcss/line-clamp'
+import tailwindTypographyConfig from '@tailwindcss/typography'
+import tailwindAnimatePlugin from "tailwindcss-animate"
 
 const config = {
   darkMode: "class",
@@ -14,11 +16,10 @@ const config = {
     extend: {},
   },
   plugins: [
-    radixThemePlugin({
-      useTailwindColorNames: true, // optional
-      useTailwindRadiusNames: true, // optional
-      mapMissingTailwindColors: true, // optional
-    }),
+    tailwindAnimatePlugin,
+    tailwindClampConfig,
+    tailwindTypographyConfig,
+    
   ],
 } satisfies Config
 
