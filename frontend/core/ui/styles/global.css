@@ -1,12 +1,13 @@
-/* https://www.youtube.com/watch?v=6zMa4qK63hQ */ 
+/* https://www.youtube.com/watch?v=6zMa4qK63hQ */
 /*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 */
 
-@layer tw_base, tw_components_utils, radix_ui;
+@layer tw_base, radix_ui, tw_components_utils;
 @import "@radix-ui/themes/styles.css" layer(radix_ui);
+
 @layer tw_base {
   @tailwind base;
 
