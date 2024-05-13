@@ -1,8 +1,22 @@
+/* https://www.youtube.com/watch?v=6zMa4qK63hQ */
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-@layer base {
+*/
+
+@layer tw_base, radix_ui, tw_components_utils;
+@import "@radix-ui/themes/styles.css" layer(radix_ui);
+
+@layer tw_base {
+  @tailwind base;
+
+}
+@layer tw_components_utils {
+  @tailwind components;
+  @tailwind utilities;
+}
+@layer tw_base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -66,7 +80,7 @@
   }
 }
  
-@layer base {
+@layer tw_base {
   * {
     @apply border-border;
   }
